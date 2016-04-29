@@ -1,6 +1,36 @@
 body {
-	background-color: LightGray;
+	font-family: "roboto", sans-serif;
 }
 div {
 	border: 1px solid Chocolate;
 }
+
+.logo {
+	margin-top: -0.5em;
+	margin-left: 6em;
+	margin-right: 10em;
+}
+
+.top-nav-list {
+	display: inline-block;
+	text-align: center;
+	list-style: none;
+}
+
+.top-nav-list > li {
+	display: inline-block;
+	margin-right: 2em;
+	margin-top: -3.5em;
+	vertical-align: middle;
+	color: #cbc9cf;
+}
+
+a {
+	text-decoration: none;
+	color: #cbc9cf;
+}
+
+a:hover {
+	color: gray;
+}
+
