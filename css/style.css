@@ -11,7 +11,7 @@ body {
 }
 
 div {
-	border: 1px solid Chocolate;
+	border: 1px solid none;
 }
 
 /* Typography Declarations */
@@ -22,6 +22,7 @@ div {
 	letter-spacing: 0.03em;
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }
 
 /* Navigation Section */
@@ -130,5 +131,35 @@ button:hover {
 
 .cases .devices .caption h3 {
 	font-weight: 400;
+}
+
+.footer {
+	margin-top: 2.75em;
+	border-top: 1px solid #838994;
+	text-align: center;
+}
+
+.footer h1 {
+	font-size: 1rem;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 2.75em;
+}
+
+.footer li {
+	padding: 1em;
+	border: 1px solid #838994;
+	border-radius: 5em;
+	width: 3em;
+	display: inline-block;
+	margin-right: 2em;
+}
+
+.footer h2 {
+	font-size: 0.8rem;
+	letter-spacing: 0.05em;
+	font-weight: 300;
+	margin-top: 2em;
+	margin-bottom: 10em;
 }
 
