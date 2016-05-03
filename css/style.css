@@ -133,33 +133,43 @@ button:hover {
 	font-weight: 400;
 }
 
-.footer {
-	margin-top: 2.75em;
-	border-top: 1px solid #838994;
+.social {
+	background-color: #fff;
+	padding-bottom: 9.375rem;
 	text-align: center;
+	overflow: auto;
 }
 
-.footer h1 {
-	font-size: 1rem;
-	font-weight: 400;
-	text-align: center;
-	margin-top: 2.75em;
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin-top: 6em;
 }
 
-.footer li {
-	padding: 1em;
-	border: 1px solid #838994;
-	border-radius: 5em;
-	width: 3em;
+.social .icons li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 1.25rem;
 	display: inline-block;
-	margin-right: 2em;
+	border: 1px solid #eaebec;
+	padding: 0.635rem 0;
+	text-align: center;
+	margin-right: 4em;
 }
 
-.footer h2 {
-	font-size: 0.8rem;
-	letter-spacing: 0.05em;
+.social h5 {
+	text-align: center;
+	color: #333333;
+	font-size: 1rem;
+	font-weight: 500;
+	margin-bottom: -1em
+}
+.social h6 {
+	text-align: center;
+	color: #838994;
+	font-size: 0.938rem;
 	font-weight: 300;
-	margin-top: 2em;
-	margin-bottom: 10em;
+	margin-top: -1em;
 }
 
