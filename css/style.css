@@ -20,13 +20,15 @@ div {
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
+	position: fixed;
+	width: 100%;
 }
 
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
-
 }
+
 .top-navigation .content {
 	width: 970px;
 	max-height: 70px;
@@ -59,37 +61,53 @@ div {
 	color: #333333;
 }
 
-.background {
+.introduction {
 	background-image: url('../images/first-background.jpg');
 	background-repeat: no-repeat;
-	background-width: auto;
-	background-height: 35em;
-	padding-top: 10em;
-	padding-bottom: 15em;
+	background-size: cover;
+	background-position: center bottom;
+	height: 45.938rem;
+	overflow: auto;
 }
 
-.background-intro {
+.content h1 {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	font-size: 2.2em;
+	font-size: 3em;
+	font-weight: 300;
+	color: #fff;
+	margin-top: 15rem;
+}
+
+.content h3 {
+	text-align: center;
+	font-size: 1.6em;
 	font-weight: 300;
 	color: #fff;
 	text-decoration: none;
+	margin-top: -0.8em;
 }
 
-.background-description {
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
+.introduction .buttons {	
 	font-size: 1.2em;
-	font-weight: 300;
-	color: #fff;
-	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 1em;
 }
 
-.background a {
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.2em;
-	font-weight: 300;
-	color: #fff;
+button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 0.275rem;
+	padding: 1rem 1rem;
+	width: 8em;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	color: #ffffff;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #d9400e;
+	border-color: #cf3d0e;
 }
