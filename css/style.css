@@ -173,3 +173,19 @@ button:hover {
 	margin-top: -1em;
 }
 
+.social .icons li:hover {
+	cursor: pointer;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+	color: #4c66a4;
+}
+
+.social .instagram {
+	color: #3f729b;
+}
+
