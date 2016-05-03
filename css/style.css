@@ -112,30 +112,23 @@ button:hover {
 	border-color: #cf3d0e;
 }
 
-.three-icons {
-	text-align: center;
-}
-
-.three-icons h2 {
+.cases h2 {
 	font-size: 2.8rem;
 	font-weight: 300;
+	text-align: center;
 	margin-top: 2.75em;
-	margin-bottom: -0.1em;
 }
 
-.three-icons ul {
+.cases .devices li {
+	font-size: 1.3rem;
 	display: inline-block;
-	list-style-type: none;
-	margin-left: auto;
-	margin-right: auto;
+	width: 33%;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 2em;
 }
 
-.devices li,
-.coffee li,
-.refill li {
-	font-size: 1.5rem;
-	margin-top: 2rem;
-	margin-left: auto;
-	margin-right: auto;
+.cases .devices .caption h3 {
+	font-weight: 400;
 }
 
